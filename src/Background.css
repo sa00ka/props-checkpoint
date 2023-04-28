@@ -1,0 +1,29 @@
+
+  .imgWrapper {
+
+    max-width: 100%;
+    float: left;
+    width: 150vw;
+    height: 100vh;
+    object-fit: cover;
+    box-sizing: border-box;
+    opacity: 0;
+    animation: blender infinite 7s linear 50ms;
+  }
+  @keyframes blender {
+    10% {
+      opacity: 0;
+      transform: translate(-25px);
+    }
+    30% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(10px);
+    }
+  }
+  
